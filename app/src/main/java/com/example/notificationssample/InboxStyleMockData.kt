@@ -46,7 +46,8 @@ object InboxStyleMockData {
     // The user-visible description of the channel.
     const val mChannelDescription = "Sample Email Notifications"
     @RequiresApi(Build.VERSION_CODES.N)
-    const val mChannelImportance = NotificationManager.IMPORTANCE_DEFAULT
+    //const val mChannelImportance = NotificationManager.IMPORTANCE_DEFAULT
+    const val mChannelImportance = NotificationManager.IMPORTANCE_HIGH
     const val mChannelEnableVibrate = true
     const val mChannelLockscreenVisibility = NotificationCompat.VISIBILITY_PRIVATE
 }

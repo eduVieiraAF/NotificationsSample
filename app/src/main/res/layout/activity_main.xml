@@ -31,4 +31,21 @@
         android:layout_height="60dp"
         android:text="Launch Inbox Style Notification!"
         tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv_big_image_style_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Demos social type app using BIG PICTURE"
+        android:layout_marginTop="25dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_big_image_style"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Launch big image Style Notification!"
+        tools:ignore="HardcodedText" />
+
 </LinearLayout>
